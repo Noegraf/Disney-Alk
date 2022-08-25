@@ -23,5 +23,5 @@ public class PeliculaEntity {
 
     private Date fecha;
 
-    private Integer calificacion;
+    private Number calificacion;
 }

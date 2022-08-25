@@ -6,7 +6,7 @@ import lombok.Setter;
 
 import javax.persistence.*;
 import java.awt.*;
-import java.util.Date;
+
 
 
 @Entity
@@ -23,9 +23,9 @@ public class PersonajeEntity {
 
     private String nombre;
 
-    private Integer edad;
+    private Number edad;
 
-    private Integer peso;
+    private Number peso;
 
     private TextArea historia;
 }
